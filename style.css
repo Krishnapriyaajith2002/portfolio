@@ -1,0 +1,61 @@
+/* Projects section */
+#projects {
+  background: #f3f4fb; /* match About bg if you want */
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: #e5e7eb;
+}
+
+.project-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  max-height: 220px;
+}
+
+.project-body {
+  padding: 16px 18px 18px;
+}
+
+.project-title {
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.project-tech {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.project-text {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+.project-link {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #4f46e5;
+  font-weight: 500;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
